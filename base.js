@@ -44,7 +44,7 @@ Os Ips são:
 `;
 
 const alfabeto =
-  'ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz ®¡ 0123456789 ¡';
+  'ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz ®¡ 0123456789¡';
           
 const html = '<p>Olá mundo</p> <p>Olá de novo</p> <div>Sou a div</div>';
 const html2 = `<p 
