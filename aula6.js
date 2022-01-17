@@ -15,5 +15,3 @@ const ipValido = ips.match(/((25[0-5]|2[0-4][\d]|1[0-9]{2}|[1-9][\d]|[\d])\.){3}
 console.log(ips)
 console.log("Os ips válidos são")
 console.log(ipValido)
-
-
