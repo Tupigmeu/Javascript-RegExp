@@ -53,7 +53,10 @@ data-teste='teste'
 class="teste teste">
   Olá mundo
 </p> <p>Olá mundo</p> <div>Sou a div</div>`;
-
+const html3 = `<p data-teste='teste' 
+class="teste 
+teste">
+Olá mundo</p> <p>Olá de novo</p> <div>Sou a div</div>`;
 const lookahead = `
 ONLINE  192.168.0.1 ABCDEF inactive
 OFFLINE  192.168.0.2 ABCDEF active
@@ -68,6 +71,7 @@ module.exports = {
   arquivos,
   html,
   html2,
+  html3,
   alfabeto,
   cpfs,
   ips,
